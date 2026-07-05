@@ -1,0 +1,16 @@
+# Build artifacts
+/bin/
+*.bolt
+*.prof
+coverage.out
+coverage.txt
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Go workspace (not used by this module)
+go.work
+go.work.sum
