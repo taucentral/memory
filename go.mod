@@ -1,4 +1,4 @@
-module github.com/coevin/tau-plugins/memory
+module github.com/taucentral/memory
 
 go 1.25.0
 
