@@ -9,7 +9,7 @@ package memory
 import (
 	"strings"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // extractCandidates returns zero-or-more memory candidate strings

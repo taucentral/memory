@@ -13,7 +13,7 @@
 package memory
 
 import (
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // Plugin bundles a retrieve mutator and a persist observer sharing

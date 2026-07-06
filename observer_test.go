@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // counterStore tracks Put calls. It's a memStore with a counter.

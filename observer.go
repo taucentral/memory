@@ -12,7 +12,7 @@ import (
 	"encoding/hex"
 	"log"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // memPersistObserver extracts memory candidates from responses and

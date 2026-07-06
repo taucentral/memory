@@ -9,7 +9,7 @@ package memory
 import (
 	"time"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // Config configures the memory plugin. Only Store is required; all

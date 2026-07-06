@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // Test 16: concurrent retrieve + persist.

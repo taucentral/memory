@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // Test 17: default config populates expected values.

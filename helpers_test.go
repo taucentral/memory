@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // newTempStore returns a fresh FileStore in a temp directory, with

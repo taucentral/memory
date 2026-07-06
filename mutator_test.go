@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // Test 1: retrieve-and-inject round-trip.

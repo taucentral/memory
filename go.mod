@@ -2,17 +2,9 @@ module github.com/taucentral/memory
 
 go 1.25.0
 
-// tau is consumed as a third-party Go module dependency; no `replace`
-// directive is used in the shipped code, matching the precedent set by
-// plugins/headroom/go.mod, plugins/sdd/go.mod, and plugins/todos/go.mod.
-//
-// TEMPORARY: a replace directive is active below so this plugin compiles
-// against the un-published SDK signature change (ObserveResponse now
-// takes a streamErr error parameter). Once the new tau release is
-// published, remove the replace line and bump the require to the new
-// pseudo-version.
+// This plugin consumes tau as a third-party Go module dependency.
 
-require github.com/coevin/tau v0.0.0-20260630093552-20cd8babf934
+require github.com/taucentral/tau v0.0.0-20260706085245-48175c6bcdf0
 
 require (
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
@@ -43,5 +35,3 @@ require (
 	google.golang.org/grpc v1.81.1 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 )
-
-replace github.com/coevin/tau => ../../tau

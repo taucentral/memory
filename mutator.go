@@ -15,7 +15,7 @@ import (
 	"os"
 	"strings"
 
-	tau "github.com/coevin/tau/pkg/tau"
+	tau "github.com/taucentral/tau/pkg/tau"
 )
 
 // memRetrieveMutator queries the Store for memory entries matching
